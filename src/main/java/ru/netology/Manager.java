@@ -1,14 +1,14 @@
 package ru.netology;
-public class manager {
+public class Manager {
 
     private String[] films = new String[0];
     private int limit;
 
-    public manager() {
+    public Manager() {
         this.limit = 5;
     }
 
-    public manager(int limit) {
+    public Manager(int limit) {
         this.limit = limit;
     }
     public  void addFilm(String film) {
